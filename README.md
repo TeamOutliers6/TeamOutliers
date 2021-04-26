@@ -11,6 +11,11 @@ The 30 raw input dataset images were pre-processed by removing the region of int
   
 - **L3_deblur&threshold.ipynb**
   The central region extracted from the raw input images is further cleaned by applying thresholding technique and removing the blurrness to make the image more clear and        understandable for segmentation.
+  
+  The complete images pre-processing workflow is as below :
+  ![image](https://user-images.githubusercontent.com/79048779/116161387-a9a51780-a6c1-11eb-8d8d-d527872f7e34.png)
+
+
 ## Deep Learning Segmentation Models
 ## ProjectFlow_Diagram
 
