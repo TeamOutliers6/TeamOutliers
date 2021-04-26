@@ -6,7 +6,7 @@ The details of each folder is as below :
 # Table of Contents
 
 * [Data-Preprocessing](#Data-Preprocessing)
-* [Deep Learning Segmentation Models](#Deep Learning Segmentation Models)
+* [Deep_Learning_Segmentation_Models](#Deep_Learning_Segmentation_Models)
 * [ProjectFlow_Diagram](#ProjectFlow_Diagram)
 * [Raw_Input_Images](#Raw_Input_Images)
 * [StreamLit Library](#StreamLit Library)
@@ -26,7 +26,7 @@ The 30 raw input dataset images were pre-processed by removing the region of int
   ![image](https://user-images.githubusercontent.com/79048779/116161387-a9a51780-a6c1-11eb-8d8d-d527872f7e34.png)
 
 
-## Deep Learning Segmentation Models
+## Deep_Learning_Segmentation_Models
 The clean and pre-processed images are used for segmentation of SAT and VAT in order to calculate the Visceral fat Index (VFI). The breakdown of each file inside this folder is as below :
 - **K-Means Segmentation**
   This folder contains the *Kmeansegmentation.ipynb* file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.However VFI calculation was not successfull using this algorithm. 
