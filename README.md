@@ -22,6 +22,8 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
   This folder contains the *Kmeansegmentation.ipynb* file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.However VFI calculation was not successfull using this algorithm. 
 
 - **Segmentation CNN**
+  This was the second approach where Convolutional Neural Networks was used for VAT and SAT segmentation using Conv 1D and 2D. The files *SegCnn.ipynb* and *SegCnn_v3.ipynb* has a 1D CNN used with 1 imaged and 30 images respectively. The file *SegCnn_v4.ipynb* shows the code for 2D CNN used with 30 input images. This algorithm did not perform as expected and could not segment the SAT and the VAT.
+  
 - **Segmentation using CV**
 - **U-NET Algorithm**
 
