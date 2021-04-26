@@ -6,4 +6,5 @@ The segmentation of the folders is as below :
 This folder
 
 ## VAT Segmented Outputs
-mnbeifgiuwe
+- mnbeifgiuwe
+- jndhuhvcf
