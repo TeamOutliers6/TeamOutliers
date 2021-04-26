@@ -5,12 +5,12 @@ This is a healthcare related project where **Image Processing** and **Deep learn
 The details of each folder is as below :
 # Table of Contents
 
-* [Team Members](#team-members)
+* [Data-Preprocessing](#Data-Preprocessing)
 
 # <a name="team-members"></a>Team Members
 * "J. Jesus. P. Aguinaga" <admin@listforks.com>
 
-## Date-Preprocessing
+## Data-Preprocessing
 The 30 raw input dataset images were pre-processed by removing the region of interest, thresholding and adjusting the brightness and contrast to make it more clear before using it for the segmentation. The breakdown of the files are as follows:
 - **Extracting ROI.ipynb**
   The central region of the raw images is the region of interest that contains the fat, bone and muscles. This code is used to extarct just the central region of interest (ROI).   In order to run this code the file **_contour_lib.py_** is required to be imported.
