@@ -6,9 +6,13 @@ The details of each folder is as below :
 # Table of Contents
 
 * [Data-Preprocessing](#Data-Preprocessing)
+* [Deep Learning Segmentation Models](#Deep Learning Segmentation Models)
+* [ProjectFlow_Diagram](#ProjectFlow_Diagram)
+* [Raw_Input_Images](#Raw_Input_Images)
+* [StreamLit Library](#StreamLit Library)
+* [VAT Segmented Outputs](#VAT Segmented Outputs)
+* [VFI for 30 images.xlsx](#VFI for 30 images.xlsx)
 
-# <a name="team-members"></a>Team Members
-* "J. Jesus. P. Aguinaga" <admin@listforks.com>
 
 ## Data-Preprocessing
 The 30 raw input dataset images were pre-processed by removing the region of interest, thresholding and adjusting the brightness and contrast to make it more clear before using it for the segmentation. The breakdown of the files are as follows:
