@@ -2,9 +2,15 @@
 
 The segmentation of the folders is as below :
 
-## Date Pre-Processing
+## Date-Preprocessing
+## Deep Learning Segmentation Models
+## ProjectFlow_Diagram
 
-## Raw Input Images 
 
+
+## Raw_Input_Images 
+## StreamLit Library
 ## VAT Segmented Outputs
+## VFI for 30 images.xlsx
+
 
