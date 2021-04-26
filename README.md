@@ -2,7 +2,7 @@
 
 This is a healthcare related project where **Image Processing** and **Deep learning** models along with **Computer Vision libraries**  are used for image segmentation and area calculation of fat regions to calculate the *Visceral Fat Index (VFI)* in the CT scan images of 30 patients. 
 
-The segmentation of the folders is as below :
+The details of each folder is as below :
 
 ## Date-Preprocessing
 ## Deep Learning Segmentation Models
