@@ -7,7 +7,7 @@ The details of each folder is as below :
 ## Date-Preprocessing
 The 30 raw input dataset images were pre-processed by removing the region of interest, thresholding and adjusting the brightness and contrast to make it more clear before using it for the segmentation. The breakdown of the files are as follows:
 - **Extracting ROI.ipynb**
-  The central region of the raw images is the region of interest that contains the fat, bone and muscles. This code is used to extarct just the central region of interest (ROI).   In order to run this code the file **<a>contour_lib.py</a>** is required to be imported.
+  The central region of the raw images is the region of interest that contains the fat, bone and muscles. This code is used to extarct just the central region of interest (ROI).   In order to run this code the file **contour_lib.py** is required to be imported.
   
 - **L3_deblur&threshold.ipynb**
   The central region extracted from the raw input images is further cleaned by applying thresholding technique and removing the blurrness to make the image more clear and        understandable for segmentation.
@@ -17,6 +17,15 @@ The 30 raw input dataset images were pre-processed by removing the region of int
 
 
 ## Deep Learning Segmentation Models
+The clean and pre-processed images are used for segmentation of SAT and VAT in order to calculate the Visceral fat Index (VFI). The breakdown of each file inside this folder is as below :
+- **K-Means Segmentation**
+  This fodler contains the Kmeansegmentation.ipynb file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.Below is the output of the algorithm. The second image is the image comprising of only fat region .
+  ![image](https://user-images.githubusercontent.com/79048779/116162187-487e4380-a6c3-11eb-84fd-81ed718a5d31.png)
+However VFI calculation was not successfull using this algorithm. 
+
+- Segmentation CNN
+- Segmentation using CV
+- U-NET Algorithm
 ## ProjectFlow_Diagram
 
 
