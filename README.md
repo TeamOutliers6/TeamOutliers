@@ -19,13 +19,14 @@ The 30 raw input dataset images were pre-processed by removing the region of int
 ## Deep Learning Segmentation Models
 The clean and pre-processed images are used for segmentation of SAT and VAT in order to calculate the Visceral fat Index (VFI). The breakdown of each file inside this folder is as below :
 - **K-Means Segmentation**
-  This fodler contains the Kmeansegmentation.ipynb file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.Below is the output of the algorithm. The second image is the image comprising of only fat region .
-  ![image](https://user-images.githubusercontent.com/79048779/116162187-487e4380-a6c3-11eb-84fd-81ed718a5d31.png)
-However VFI calculation was not successfull using this algorithm. 
+  This folder contains the *Kmeansegmentation.ipynb* file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.However VFI calculation was not successfull using this algorithm. 
 
-- Segmentation CNN
-- Segmentation using CV
-- U-NET Algorithm
+- **Segmentation CNN**
+- **Segmentation using CV**
+- **U-NET Algorithm**
+
+
+
 ## ProjectFlow_Diagram
 
 
