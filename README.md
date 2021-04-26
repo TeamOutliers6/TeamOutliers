@@ -9,9 +9,9 @@ The details of each folder is as below :
 * [Deep_Learning_Segmentation_Models](#Deep_Learning_Segmentation_Models)
 * [ProjectFlow_Diagram](#ProjectFlow_Diagram)
 * [Raw_Input_Images](#Raw_Input_Images)
-* [StreamLit Library](#StreamLit Library)
-* [VAT Segmented Outputs](#VAT Segmented Outputs)
-* [VFI for 30 images.xlsx](#VFI for 30 images.xlsx)
+* [StreamLit-Library](#StreamLit-Library)
+* [VAT_Segmented_Outputs](#VAT_Segmented_Outputs)
+* [VFI_for_30_images.xlsx](#VFI_for_30_images.xlsx)
 
 
 ## Data-Preprocessing
@@ -45,8 +45,7 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
 The whoel workflow of this project fromt he start to the end is shown in this project Flow Diagram. It contains the errors we faced during the implementation of various algorithms and also outcomes of the succesfull ones.
 
 ## Raw_Input_Images 
-## StreamLit Library
-## VAT Segmented Outputs
-## VFI for 30 images.xlsx
-
+## StreamLit-Library
+## VAT_Segmented_Outputs
+## VFI_for_30_images.xlsx
 
