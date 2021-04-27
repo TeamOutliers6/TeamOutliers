@@ -51,7 +51,7 @@ The whole workflow of this project from the start to the end is shown in this pr
 
 
 ## Raw_Input_Images
-This folder contains 30 raw input dataset images whihc was used for pre-processing and later segmentation.
+This folder contains 30 raw input dataset images which was used for pre-processing and later segmentation.
 
 ![image](https://user-images.githubusercontent.com/79048779/116176493-3b238200-a6e0-11eb-89ee-74f8af5be2f3.png)
 
