@@ -47,6 +47,8 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
 
 ## ProjectFlow_Diagram
 The whole workflow of this project from the start to the end is shown in this project Flow Diagram. It contains the errors we faced during the implementation of various algorithms and also outcomes of the succesfull ones.
+![image](https://user-images.githubusercontent.com/79048779/116178369-73788f80-a6e3-11eb-9dd0-470f4c16fe9f.png)
+
 
 ## Raw_Input_Images
 This folder contains 30 raw input dataset images whihc was used for pre-processing and later segmentation.
