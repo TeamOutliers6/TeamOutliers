@@ -49,7 +49,10 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
 The whole workflow of this project from the start to the end is shown in this project Flow Diagram. It contains the errors we faced during the implementation of various algorithms and also outcomes of the succesfull ones.
 
 ## Raw_Input_Images
-This folder contains 30 raw images on which we performed various preprocessing techniques like Extracting ROI(Region of Interest), Removing the blurred area and later on we performed various approaches like U-NET, Segmentation CNN, K-Means using these preprocessed images.
+This folder contains 30 raw input dataset images whihc was used for pre-processing and later segmentation.
+
+![image](https://user-images.githubusercontent.com/79048779/116176493-3b238200-a6e0-11eb-89ee-74f8af5be2f3.png)
+
 
 ## StreamLit-Library
 
