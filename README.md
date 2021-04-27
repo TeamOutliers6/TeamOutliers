@@ -46,12 +46,20 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
   This folder contains the code for the VAT and SAT segmentation using a complex network called U-NET. This approach did not yield the results as expected.
 
 ## ProjectFlow_Diagram
-The whole workflow of this project from start to end is shown in this Project Flow Diagram. It contains the details of the errors we faced during the implementation of various algorithms and also outcomes of the successfull ones.
-![image](https://user-images.githubusercontent.com/79048779/116169303-6c955100-a6d2-11eb-8a75-c7108669988b.png)
+The whole workflow of this project from the start to the end is shown in this project Flow Diagram. It contains the errors we faced during the implementation of various algorithms and also outcomes of the succesfull ones.
 
+## Raw_Input_Images
+This folder contains 30 raw images on which we performed various preprocessing techniques like Extracting ROI(Region of Interest), Removing the blurred area and later on we performed various approaches like U-NET, Segmentation CNN, K-Means using these preprocessed images.
 
-## Raw_Input_Images 
 ## StreamLit-Library
+
+StreamLit is an open source application framework in python library, which creates an easy way to share beautiful and custom web pages to deploy the images to get outputs. It also allows the users to quickly build interactive web applications about their models.
+The main purpose of this approach is to provide graphical user interface, here this will create a webpage user interface where a common person with no any background or knowledge on image processing can easily view or play around with these images. It can also be considered as an easiest way of viewing the output images.
+
 ## VAT_Segmented_Outputs
+
+This folder contains the images for which VAT is segmented, where we can clearly see the segmeted part with no any bone. This can be clearly observed when raw image and segemented image is compared.
+
 ## VFI_for_30_images.xlsx
 
+This is the xlsx file where VFI(Visceral Fat Index) is calcualted for our 30 images. It can be seen in the file where it shows the calculated VFI using CV algorithm and VFI using ImageJ tool.
