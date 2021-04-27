@@ -46,7 +46,7 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
   This folder contains the code for the VAT and SAT segmentation using a complex network called U-NET. This approach did not yield the results as expected.
 
 ## ProjectFlow_Diagram
-The whole workflow of this project from the start to the end is shown in this Project Flow Diagram. It contains the details of the errors we faced during the implementation of various algorithms and also outcomes of the succesfull ones.
+The whole workflow of this project from start to end is shown in this Project Flow Diagram. It contains the details of the errors we faced during the implementation of various algorithms and also outcomes of the successfull ones.
 ![image](https://user-images.githubusercontent.com/79048779/116169303-6c955100-a6d2-11eb-8a75-c7108669988b.png)
 
 
