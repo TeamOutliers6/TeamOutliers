@@ -56,8 +56,12 @@ This folder contains 30 raw input dataset images whihc was used for pre-processi
 
 ## StreamLit-Library
 
-StreamLit is an open source application framework in python library, which creates an easy way to share beautiful and custom web pages to deploy the images to get outputs. It also allows the users to quickly build interactive web applications about their models.
-The main purpose of this approach is to provide graphical user interface, here this will create a webpage user interface where a common person with no any background or knowledge on image processing can easily view or play around with these images. It can also be considered as an easiest way of viewing the output images.
+- StreamLit is an open source application framework in python library, which creates an easy way to share beautiful and custom web pages to deploy the images to get outputs. - It also allows the users to quickly build interactive web applications about their models.
+- The main purpose of this approach is to provide graphical user interface, where it will create a webpage user interface where a common person with no background knowledge  on image processing can easily view or play around with these images. 
+- It can also be considered as an easiest way of viewing the output images.
+-
+![image](https://user-images.githubusercontent.com/79048779/116176717-a2d9cd00-a6e0-11eb-8002-4c0d46597270.png)
+
 
 ## VAT_Segmented_Outputs
 
