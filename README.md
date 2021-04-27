@@ -65,8 +65,8 @@ This folder contains 30 raw input dataset images whihc was used for pre-processi
 
 ## VAT_Segmented_Outputs
 
-This folder contains the images for which VAT is segmented, where we can clearly see the segmeted part with no any bone. This can be clearly observed when raw image and segemented image is compared.
+This folder contains the 30 VAT segmented images from the 30 input images, where we can clearly see the segmeted region with VAT. This can be clearly observed when raw image and segemented image is compared.
 
 ## VFI_for_30_images.xlsx
 
-This is the xlsx file where VFI(Visceral Fat Index) is calcualted for our 30 images. It can be seen in the file where it shows the calculated VFI using CV algorithm and VFI using ImageJ tool.
+This file contains the VFI(Visceral Fat Index) which is calcualted for the 30 images of the dataset. It can be seen in the file where it shows the calculated VFI using CV algorithm and VFI using ImageJ tool.
