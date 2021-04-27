@@ -69,4 +69,4 @@ This folder contains the 30 VAT segmented images from the 30 input images, where
 
 ## VFI_for_30_images.xlsx
 
-This file contains the VFI(Visceral Fat Index) which is calcualted for the 30 images of the dataset. It can be seen in the file where it shows the calculated VFI using CV algorithm and VFI using ImageJ tool.
+This file contains the VFI(Visceral Fat Index) which is calculated for the 30 images of the dataset. It can be seen in the file where it shows the calculated VFI using CV algorithm and VFI using ImageJ tool.
