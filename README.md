@@ -20,11 +20,8 @@ The details of each folder is as below :
 
 ## Data-Preprocessing
 The 30 raw input dataset images were pre-processed by removing the region of interest, thresholding and adjusting the brightness and contrast to make it more clear before using it for the segmentation. The breakdown of the files are as follows:
-- **Extracting ROI.ipynb**
-  The central region of the raw images is the region of interest that contains the fat, bone and muscles. This code is used to extarct just the central region of interest (ROI).   In order to run this code the file **_contour_lib.py_** is required to be imported.
-  
-- **L3_deblur&threshold.ipynb**
-  The central region extracted from the raw input images is further cleaned by applying thresholding technique and removing the blurrness to make the image more clear and        understandable for segmentation.
+- **L3_datapreprocessing**
+  The central region of the raw images is the region of interest that contains the fat, bone and muscles. This code is used to extract the central region of interest (ROI) first and then the central region extracted from the raw input images is further cleaned by removing the blurrness to make the image more clear and understandable for segmentation.  In order to run this code the file **_contour_lib.py_** is required to be imported.
   
   The complete images pre-processing workflow is as below :
   ![image](https://user-images.githubusercontent.com/79048779/116161387-a9a51780-a6c1-11eb-8d8d-d527872f7e34.png)
@@ -36,7 +33,12 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
   This folder contains the *Kmeansegmentation.ipynb* file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.However VFI calculation was not successfull using this algorithm. 
 
 - **Segmentation CNN**
-  This was the second approach where Convolutional Neural Networks was used for VAT and SAT segmentation using Conv 1D and 2D. The files *SegCnn.ipynb* and *SegCnn_v3.ipynb* has a 1D CNN used with 1 imaged and 30 images respectively. The file *SegCnn_v4.ipynb* shows the code for 2D CNN used with 30 input images. This algorithm did not perform as expected and could not segment the SAT and the VAT.
+  This was the second approach where Convolutional Neural Networks was used for VAT and SAT segmentation using Conv 1D and 2D. Firstly, we performed thresholding to get only the pixels related to VAT and SAT, these thresholded images are used as masks and we performed conv 1D and 2D. As the results were not satisfactory we then used painted images which are generated from ImageJ as masks. However, the results were not satisfactory. By an observation made during our research we founded that thresholded images did have the fat areas required for calculation of VFI. Though segmentation CNN did not provide proper results, the thresholded images were useful for calculating VFI.
+  
+  - **L3_thresholding**
+    This file contains code for generating thresholded images. we used a combination of Binary Inverse thresholding and Tozero thresholding to get the outputs.
+
+
   
 - **Segmentation using CV**
   This was a successful approach where VAT was extracted from the image using **Computer Vision** which was then used for VFI calculation. It is the same code as the Extractionof Region of Interest use din data pre-processing and requires the file  **_contour_lib.py_** to be imported. Below is and example :
