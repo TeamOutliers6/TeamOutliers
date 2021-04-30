@@ -33,6 +33,7 @@ The clean and pre-processed images are used for segmentation of SAT and VAT in o
   This folder contains the *Kmeansegmentation.ipynb* file where segmentation was doene on ImageJ created images to segment the fat region from the bone, muscle and other elements.However VFI calculation was not successfull using this algorithm. 
 
 - **Segmentation CNN**
+  - **Seg_CNN**
   This was the second approach where Convolutional Neural Networks was used for VAT and SAT segmentation using Conv 1D and 2D. Firstly, we performed thresholding to get only the pixels related to VAT and SAT, these thresholded images are used as masks and we performed conv 1D and 2D. As the results were not satisfactory we then used painted images which are generated from ImageJ as masks. However, the results were not satisfactory. By an observation made during our research we founded that thresholded images did have the fat areas required for calculation of VFI. Though segmentation CNN did not provide proper results, the thresholded images were useful for calculating VFI.
   
   - **L3_thresholding**
